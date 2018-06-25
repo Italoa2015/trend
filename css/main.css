@@ -19127,6 +19127,10 @@ a.contacts__item_text--04:visited {
     font-size: 12px;
 }
 
+.fontSize13 {
+    font-size: 13px;
+}
+
 .fontSize14 {
     font-size: 14px;
 }
@@ -19219,4 +19223,11 @@ a.contacts__item_text--04:visited {
 .sec-content {
     font-size: 14px;
     color: #747474;
+}
+
+.bg_action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
