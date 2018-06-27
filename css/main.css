@@ -54,6 +54,19 @@ body {
     justify-content: center;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.a-hover:hover {
+    color: #999;
+}
+
+ms-poiter {
+    cursor: pointer;
+}
+
 .mark {
     border: solid 1px red;
 }
