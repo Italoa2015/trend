@@ -47,9 +47,21 @@ body {
     align-items: center;
 }
 
+.flex-align-center-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .flex-all-center {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-all-center-row {
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -103,12 +115,21 @@ ms-poiter {
 
 .section-1 {
     height: 400px;
-    background-color: #000;
     color: white;
+    width: 100%;
+}
+
+.bg-black {
+    background-color: #000;
 }
 
 .section-1 .trend-slogan {
     font-size: 36px;
+    height: 240px;
+}
+
+.section-1 .trend-about-slogan {
+    font-size: 24px;
     height: 240px;
 }
 
@@ -126,8 +147,57 @@ ms-poiter {
     height: 80px;
 }
 
+.about .mark-line div {
+    border-top: solid 1px #000;
+}
+
+.about .vice-title {
+    color: #000;
+}
+
+.about-desc {
+    width: 100%;
+    min-height: 380px;
+    padding: 20px;
+    background-color: #F6F6F6;
+}
+
+.about-desc-content {
+    width: 100%;
+    height: 100%;
+}
+
+.about-desc-content-section-title {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.about-desc-content-section-info {
+    font-size: 14px;
+    color: #747474;
+    margin-bottom: 18px;
+}
+
+.creator-profile {
+    width: 100%;
+    min-height: 300px;
+    padding: 30px 200px;
+}
+
+.creator-profile-info {
+    height: 100%;
+    width: 440px;
+    margin-left: 40px;
+    padding-top: 5px;
+}
+
+.creator-quote {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
 .fs-10 {
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .fs-12 {
